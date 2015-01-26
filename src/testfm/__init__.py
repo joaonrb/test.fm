@@ -1,25 +1,15 @@
 # -*- coding: utf-8 -*-
-'''
-Created on 17 January 2014
+"""
+my.test.fm - 
+joaonrb, 26 January 2015
+
+Documentation TODO
+"""
+
+from __future__ import division, absolute_import, print_function
+# The remaining imports here
+
+__author__ = "joaonrb"
 
 
-
-.. moduleauthor:: joaonrb <>
-'''
-__author__ = {
-    'name':'joaonrb',
-    'e-mail': 'joaonrb@gmail.com'
-}
-__version__ = 1, 0, 3
-__since__ = 17, 1, 2014
-
-
-from testfm.splitter.holdout import HoldoutSplitter, HoldoutSplitterByUser, \
-    RandomHoldoutSplitter, RandomSplitter
-
-
-class split(object):
-    holdout = HoldoutSplitter()
-    holdoutByRandomSlow = RandomHoldoutSplitter()
-    holdoutByUser = HoldoutSplitterByUser()
-    holdoutByRandom = RandomSplitter()
+# Your code
